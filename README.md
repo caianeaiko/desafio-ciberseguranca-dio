@@ -27,13 +27,6 @@ O laboratório foi configurado em uma máquina virtual Kali Linux, utilizando um
 - Monitorar logs de acesso.
 - Preferir SFTP ou FTPS ao FTP sem criptografia.
 
-## Conclusão
-O projeto permitiu compreender, na prática, o funcionamento de ataques de força bruta contra serviços de autenticação FTP, utilizando o Kali Linux e a ferramenta Medusa em um ambiente local e controlado.
-Durante o laboratório, foi realizada a configuração do servidor vsftpd, a criação de um usuário de testes e a preparação de uma lista de senhas para simular tentativas de autenticação.
-A execução do Medusa demonstrou a possibilidade de identificar credenciais válidas quando senhas previsíveis são utilizadas. O resultado foi registrado por meio de capturas de tela, permitindo documentar as etapas e as evidências do experimento.
-A atividade reforçou a importância de medidas de proteção, como senhas fortes, limitação de tentativas de login, monitoramento de acessos e utilização de protocolos seguros.
-Além do aprendizado técnico, o desafio contribuiu para o desenvolvimento de habilidades em Linux, auditoria de segurança, documentação técnica e utilização do GitHub como portfólio profissional.
-
 ## Teste de força bruta — FTP
 
 Foi realizado um teste de autenticação em ambiente local controlado, utilizando Kali Linux, Medusa e o servidor vsftpd.
@@ -71,3 +64,10 @@ Foi realizado um teste de autenticação em ambiente local controlado, utilizand
 
 ### 4. Encerramento do servidor FTP
 ![Servidor desativado](Images/2.png)
+
+## Conclusão
+O projeto permitiu compreender, na prática, o funcionamento de ataques de força bruta contra serviços de autenticação FTP, utilizando o Kali Linux e a ferramenta Medusa em um ambiente local e controlado.
+Durante o laboratório, foi realizada a configuração do servidor vsftpd, a criação de um usuário de testes e a preparação de uma lista de senhas para simular tentativas de autenticação.
+A execução do Medusa demonstrou a possibilidade de identificar credenciais válidas quando senhas previsíveis são utilizadas. O resultado foi registrado por meio de capturas de tela, permitindo documentar as etapas e as evidências do experimento.
+A atividade reforçou a importância de medidas de proteção, como senhas fortes, limitação de tentativas de login, monitoramento de acessos e utilização de protocolos seguros.
+Além do aprendizado técnico, o desafio contribuiu para o desenvolvimento de habilidades em Linux, auditoria de segurança, documentação técnica e utilização do GitHub como portfólio profissional.
