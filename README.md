@@ -58,13 +58,13 @@ Foi realizado um teste de autenticação em ambiente local controlado, utilizand
   ## 📸 Evidências do Laboratório
 
 ### 1. Configuração do servidor FTP
-![Configuração FTP](images/imagem1.png)
+![Configuração FTP](Images/3.png)
 
 ### 2. Verificação do serviço FTP
-![Servidor FTP](images/imagem2.png)
+![Servidor FTP](Images/4.png)
 
 ### 3. Execução do Medusa
-![Teste com Medusa](images/imagem3.png)
+![Teste com Medusa](Images/1.png)
 
 ### 4. Resultado do teste
-![Resultado](images/imagem4.png)
+![Resultado](Images/2.png)
