@@ -55,16 +55,17 @@ Foi realizado um teste de autenticação em ambiente local controlado, utilizand
 - Monitorar tentativas de autenticação malsucedidas.
 - Preferir SFTP ou FTPS para proteger as credenciais durante a transmissão.
 
-  ## 📸 Evidências do Laboratório
+ 
+## 📸 Evidências do Laboratório
 
-### 1. Configuração do servidor FTP
-![Configuração FTP](Images/3.png)
+### 1. Servidor FTP ativo
+![Servidor FTP](Images/3.png)
 
-### 2. Verificação do serviço FTP
-![Servidor FTP](Images/4.png)
+### 2. Execução do Medusa
+![Execução do Medusa](Images/4.png)
 
-### 3. Execução do Medusa
-![Teste com Medusa](Images/1.png)
+### 3. Resultado da auditoria
+![Resultado do teste](Images/1.png)
 
-### 4. Resultado do teste
-![Resultado](Images/2.png)
+### 4. Encerramento do servidor FTP
+![Servidor desativado](Images/2.png)
