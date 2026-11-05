@@ -31,3 +31,26 @@ As capturas de tela serão adicionadas à pasta images/.
 
 ## Conclusão
 O laboratório permitiu compreender a configuração de um ambiente de testes de segurança e a importância de proteger serviços de autenticação. Os resultados dos testes com Medusa serão documentados após sua execução.
+
+## Teste de força bruta — FTP
+
+Foi realizado um teste de autenticação em ambiente local controlado, utilizando Kali Linux, Medusa e o servidor vsftpd.
+
+**Alvo:** 127.0.0.1 (localhost)
+
+**Usuário de laboratório:** testeftp
+
+**Ferramenta:** Medusa
+
+**Resultado:** O Medusa identificou a senha de teste presente na wordlist, demonstrando o risco de utilizar senhas fracas.
+
+### Evidência
+
+![Resultado do teste FTP com Medusa](images/medusa-ftp.png)
+
+### Recomendações de segurança
+
+- Utilizar senhas fortes e exclusivas.
+- Implementar mecanismos de limitação de tentativas de login.
+- Monitorar tentativas de autenticação malsucedidas.
+- Preferir SFTP ou FTPS para proteger as credenciais durante a transmissão.
