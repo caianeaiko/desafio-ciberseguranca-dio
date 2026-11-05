@@ -46,7 +46,7 @@ Foi realizado um teste de autenticação em ambiente local controlado, utilizand
 
 ### Evidência
 
-![Resultado do teste FTP com Medusa](images/medusa-ftp.png)
+![Resultado do teste FTP com Medusa](images/medusa.png)
 
 ### Recomendações de segurança
 
