@@ -20,8 +20,6 @@ O laboratório foi configurado em uma máquina virtual Kali Linux, utilizando um
 5. Verificação da conectividade com o servidor FTP local.
 6. Documentação dos testes de auditoria.
 
-## Evidências
-As capturas de tela serão adicionadas à pasta images/.
 
 ## Medidas de mitigação
 - Utilizar senhas fortes e únicas.
